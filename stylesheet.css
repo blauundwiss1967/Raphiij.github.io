@@ -180,7 +180,9 @@ background-position: center;}
             margin: 0 auto;
           margin-bottom: 5%;
           margin-left 5%;
-          display: block;}
+          display: block;
+          align-items: center;
+          }
 
 .socialmedia.snapcode{
   background-image: url(https://78.media.tumblr.com/9ac54b44d445c772d73da44020887425/tumblr_ozo9m6hzva1wbm4dpo1_1280.png);
