@@ -44,7 +44,7 @@ border: none;
 nav ul li {
   display: inline-block;
   border-radius: 10px;
-  padding: 10px;
+  
 }
 
 nav ul li a:hover{filter: opacity(0.5);}
