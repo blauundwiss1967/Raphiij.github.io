@@ -23,16 +23,16 @@ var hournow = today.getHours();
 var greeting;
 
  if (hournow > 18) {
-   greeting = 'Guete Abig!';
+   greeting = 'Guete Abig😎!';
 
  }
- else if (hournow > 12) {greeting='Guete Tag!';
+ else if (hournow > 12) {greeting='Guete Tag😄!';
 
  }
- else if (hournow > 0) {greeting= 'Guete Morgen!'
+ else if (hournow > 0) {greeting= 'Guete Morge😴!'
 
  }
- else  {greeting='Willkommen!';
+ else  {greeting='Heii 😄';
  }
 
  document.write('<p>' + greeting + '</p>');
