@@ -242,16 +242,19 @@ background-position: center;}
         {width: 100%;
         height: 10%;
         margin: 0 auto;
-
+        font-size: 50px;
+        text-align: center;
         font-style: oblique;
-        font-family: 'Bungee Shade';
-        color: white;
-              text-decoration: inherit;
+        text-decoration: underline;
+        font-family: 'Ceviche+One';
+        color: black;}
+      /*        text-decoration: inherit;
               font-size: 50px;
               text-align: center;
             opacity: 0.5;
         text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
                      #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;}
+                     */
         #display:hover {filter: opacity(0.5);}
 
 

@@ -19,20 +19,14 @@
 
 
 var today = new Date();
-var hournow = today.getHours();
-var greeting;
+var d = new Date();
+var a = d.getDate()
+var m = new Date();
+var o = m.getMonth();
+var y = new Date();
+var e = y.getFullYear()
 
- if (hournow > 18) {
-   greeting = 'Guete Abig😎!';
 
- }
- else if (hournow > 12) {greeting='Guete Tag😄!';
 
- }
- else if (hournow > 0) {greeting= 'Guete Morge😴!'
 
- }
- else  {greeting='Heii 😄';
- }
-
- document.write('<p>' + greeting + '</p>');
+ document.write('<p>' + a +"." + o+"." + e + '</p>');
