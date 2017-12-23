@@ -157,7 +157,7 @@ nav ul li a:hover{filter: opacity(0.5);}
 box-shadow:  0px 0px 5px -1px rgba(0, 0, 0, 0.75);}
 
 .Bildchli.drei{
-background-image: url(https://78.media.tumblr.com/d744090f3d4777f3e43e1d74f34a1c7e/tumblr_p1dwniiGBo1wbm4dpo1_1280.jpg);
+background-image: url(https://78.media.tumblr.com/a0a9114db90aac8556b83706c6afa6d9/tumblr_p1fkxz7fy81wbm4dpo2_400.jpg);
 float:left;
 }
 .Bildchli.zwei{
@@ -191,7 +191,7 @@ background-size: cover;
 background-position: center;}
 
 .Bildchli.nuen{
-background-image: url(https://78.media.tumblr.com/a3a8a9fa1babb042ca35b2d6a4d5f140/tumblr_p1f13uuIBy1wbm4dpo1_1280.jpg);
+background-image: url(https://78.media.tumblr.com/1f4d78a75def146cb15f086eefa19bc2/tumblr_p1fllyRy6q1wbm4dpo1_1280.jpg);
 float:left;
 }
 .Bildchli.acht{
@@ -202,7 +202,7 @@ float:left;
 
 
 .Bildchli.siebe{
-  background-image: url(https://78.media.tumblr.com/f964fae5f7d17b32f7a30da53ad0efc9/tumblr_oxgio3PznM1wbm4dpo1_400.jpg);
+  background-image: url(https://78.media.tumblr.com/f964fae5f7d17b32f7a30da53ad0efc9/tumblr_owjjjtDsGO1wbm4dpo2_400.jpg);
 float: left;
 background-size: cover;
 background-position: center;}
@@ -211,12 +211,12 @@ background-position: center;}
       }
 
 
-.socialmedia{width: 200px;
-            height: 200px;
+.socialmedia{
             z-index: +3;
             margin: 0 auto;
           margin-bottom: 5%;
-          margin-left 5%;
+          margin-left: 6.5%;
+          margin-right: 6.5%;
           display: block;
           align-items: center;
           }
@@ -247,14 +247,10 @@ background-position: center;}
         font-style: oblique;
         text-decoration: underline;
         font-family: 'Ceviche+One';
-        color: black;}
-      /*        text-decoration: inherit;
+        color: black;
               font-size: 50px;
-              text-align: center;
-            opacity: 0.5;
-        text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-                     #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;}
-                     */
+              text-align: center;}
+
         #display:hover {filter: opacity(0.5);}
 
 

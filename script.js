@@ -18,15 +18,12 @@
       alert("Deine Zahl ist "+ zahl)}*/
 
 
-var today = new Date();
+
 var d = new Date();
 var a = d.getDate()
 var m = new Date();
 var o = m.getMonth();
 var y = new Date();
-var e = y.getFullYear()
+var e = y.getFullYear();
 
-
-
-
- document.write('<p>' + a +"." + o+"." + e + '</p>');
+document.write('<p>' + a +"." + o+"." + e + '</p>');
