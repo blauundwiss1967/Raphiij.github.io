@@ -22,7 +22,7 @@
 var d = new Date();
 var a = d.getDate()
 var m = new Date();
-var o = m.getMonth();
+var o = m.getMonth() + 1;
 var y = new Date();
 var e = y.getFullYear();
 
