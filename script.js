@@ -26,4 +26,4 @@ var o = m.getMonth() + 1;
 var y = new Date();
 var e = y.getFullYear();
 
-document.write('<p>' + a +"." + o+"." + e + '</p>');
+document.write('<p>' +"7.2.2018"+" ~ "+ a +"." + o+"." + e + '</p>');
