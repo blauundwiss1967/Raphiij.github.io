@@ -22,7 +22,9 @@ body {    width: 100%;
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
-        text-align: center;}
+        text-align: center;
+      top: 0;
+      left: 0;}
 
 /*Navigation*/
 
@@ -73,12 +75,10 @@ nav ul li a:hover{filter: opacity(0.5);}
 /*Bilder*/
 .Bild {align-items: center;
       width: 150px;
-      position: absolute;
+      position: relative;
       height:150px;
-      margin: 0, auto;
-
-      margin-top: 10%;
-      margin-bottom: 5%;
+      margin: auto;
+      top: 25%;
       border-color: none;
       text-align: center;
       display: block;
@@ -88,8 +88,7 @@ nav ul li a:hover{filter: opacity(0.5);}
 
 .Bild.Grösseprofilbild {
                   border-radius: 50%;
-                  margin-left: 45%;
-                  margin: 0. auto;;
+                  margin: 0, auto;
                   background-size: cover;
                   background-repeat: no-repeat;
                   background-position: center;
