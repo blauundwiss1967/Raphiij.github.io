@@ -2,7 +2,7 @@
 
 /*Schriftsammlung*/
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Ceviche+One|Fugaz+One|Oleo+Script|Racing+Sans+One|Zilla+Slab+Highlight');
-
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
 tab1 { padding-left: 4em ;}
 /*Wrapper & Body*/
 body {    width: 100%;
@@ -18,6 +18,7 @@ body {    width: 100%;
 .header {width: 100%;
         height: 500px;
         margin-top: 5%;
+        margin-bottom: 5%;
         background-image: url(https://78.media.tumblr.com/aea412f60dd7f0c97aa8f1a69e796e0e/tumblr_p3s2yeiNjA1wbm4dpo1_1280.jpg);
         background-repeat: no-repeat;
         background-size: auto;
@@ -31,6 +32,7 @@ body {    width: 100%;
 nav ul li a {
 text-decoration: overline;
 font:none;
+margin-top: 5%;
 align-items: center;
 text-transform: uppercase;
 width: 100%;
@@ -107,19 +109,20 @@ nav ul li a:hover{filter: opacity(0.5);}
 /*Titel*/
 
 .titel {font-style: oblique;
-        font-family: 'Bungee Shade';
-        color: white;
+        font-family: 'Cevice+One';
+        color: black;
+        text-decoration: underline;
         text-align: center;
-        opacity: 0.5;
+        /*opacity: 0.5;
         text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;}
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/}
 .titel.gross:hover{filter: opacity(0.5);}
 
 .titel.gross{font-size: 60px;}
 
 .titel.klein{font-size: 50px;}
 
-.titel.klein:hover{filter: opacity(0.5);}
+/*.titel.klein:hover{filter: opacity(0.5);*/}
 /*Paragraph*/
 
 .text { font-weight: bold;
@@ -255,12 +258,12 @@ background-position: center;}
         text-align: center;
         font-style: oblique;
         text-decoration: underline;
-        font-family: 'Ceviche+One';
+        font-family: 'Cevice+One';
         color: black;
               font-size: 50px;
               text-align: center;}
 
-        #display:hover {filter: opacity(0.5);}
+
 
 
 
